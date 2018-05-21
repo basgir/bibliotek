@@ -1,0 +1,13 @@
+scrapy
+flask
+flask_restful
+requests
+urllib
+pymysql
+fuzzywuzzy
+pandas
+numpy
+bibtexparser
+slugify
+json
+pathlib
