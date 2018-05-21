@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 ###########################################
 #   Author : Bastien Girardet, Deborah De Wolff
 #   Date : 11.05.2018
