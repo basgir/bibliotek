@@ -24,8 +24,9 @@ import pymysql
 app = Flask(__name__)
 
 # AWS credentials
-DB_USER = 'bastienroot'
-DB_PASSWORD = 'hGXw%ZYl8MJimhbJ!7eYf58M'
+# To be replaced !
+DB_USER = ''
+DB_PASSWORD = ''
 DB_HOST = 'oopdatabase.cq3xiqh7vtmo.eu-west-3.rds.amazonaws.com'
 DB_NAME = 'bibliotek'
 
