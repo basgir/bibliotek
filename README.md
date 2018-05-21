@@ -78,19 +78,19 @@ That are required by scrapy for storing and processing data gathered on websites
 They are Stored through the model and Processed through a pipeline.
 
     Items
-        - Book
+        1. Book
     Pipelines
-        - APICallerPipeline
+        1. APICallerPipeline
 
 ## Controllers
 For scrapy, controllers may be interpreted by the spiders. Because all of the manipulation is done by the spider.
 A spider is the engine that will search web pages and gather data. Data which, will be then stored into the model and processed by the pipeline.
 
     Spiders
-        - BooksSpider
+        1. BooksSpider
 
 # Book Info
 Class which purpose is to gather additionnal book information on google book API.
 
     book_info
-        - BookInfo
+        1. BookInfo
