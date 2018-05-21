@@ -9,5 +9,5 @@ fuzzywuzzy
 pandas
 numpy
 bibtexparser
-slugify
+python-slugify
 pathlib
