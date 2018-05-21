@@ -1,5 +1,23 @@
 # Bibliotek
 All of theses are classes within **Bibliotek**, they are **resources** for the rest api, **models** used to update the database and also webscraping components required by **Scrapy**.
+
+# Installation
+## Windows
+    pip3 install -r requirements.txt
+## OSX / Linux
+    sudo pip3 install -r requirements.txt
+
+# Run the app
+To start the Flask API
+
+    python3 app.py
+
+# Database
+
+<aside class="notice">
+You must set the `DB_USER` and `DB_PASSWORD` with credentials provided in the executive summary.
+</aside>
+
 ## Api
 - Resources
     - author
@@ -57,7 +75,7 @@ They are Stored through the model and Processed through a pipeline.
 For scrapy, controllers may be interpreted by the spiders. Because all of the manipulation is done by the spider.
 A spider is the engine that will search web pages and gather data. Data which, will be then stored into the model and processed by the pipeline.
 - Spiders
-    - books_spider
+    - BooksSpider
 
 ## Book Info
 Class which purpose is to gather additionnal book information on google book API.
