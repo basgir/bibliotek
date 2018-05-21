@@ -1,7 +1,7 @@
 # Bibliotek
 Book management tool, developped in the scope of the Applications in Object-oriented Programming and Databases course.
 
-Classes of **Bibliotek** are described below. Some of them are **resources** for the rest api, some are **models** used to update the database and also some are  webscraping class components required by **Scrapy**.
+Classes of **Bibliotek** are described below. Some of them are **resources** classes for the rest api, some are **models** classes used to update the database and also some are  webscraping class components required by **Scrapy**.
 
 # Installation
 ## Windows
