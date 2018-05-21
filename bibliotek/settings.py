@@ -17,7 +17,7 @@ ITEM_PIPELINES = {
 'bibliotek.pipelines.APICallerPipeline': 300,
 # 'bibliotek.pipelines.JsonWriterPipeline': 800
 }
-FILES_STORE = '../../download'
+FILES_STORE = './download'
 DOWNLOAD_TIMEOUT = 180
 COOKIES_ENABLED = False
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
