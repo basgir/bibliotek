@@ -23,14 +23,8 @@ COOKIES_ENABLED = False
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'bibliotek (+http://www.yourdomain.com)'
 
-# Obey robots.txt rules
+# Obey robots.txt rules, because libgen.io blocks robots.
 ROBOTSTXT_OBEY = False
-
-DB_HOST = "localhost"
-DB_USER = "root"
-DB_PASSWORD = ""
-DB_NAME = "bibliotek"
-DB_CHARSET = "utf8"
 
 CONCURRENT_REQUESTS = 100
 
